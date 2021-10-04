@@ -1,0 +1,325 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#overly {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(8, 8, 219, 0.507);
+  z-index: 2;
+}
+
+.navbar {
+  background: #f1f8f8;
+  position: relative;
+  top: 0;
+  position: -webkit-sticky;
+  position: sticky;
+  padding: 10px 8%;
+}
+
+.navbar .navbar-logo {
+  width: 130px;
+  height: auto;
+}
+
+.navbar nav {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.navbar .collapse .nav-link {
+  font-weight: bold;
+  color: #19456B;
+}
+
+.navbar .collapse #activety {
+  color: #16C79A;
+}
+
+.container {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.layer-1 {
+  background-color: #f1f8f8;
+  height: 100vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.layer-1 .h-img {
+  display: none;
+  margin-bottom: 10vh;
+}
+
+.layer-1 .hd-text {
+  margin-top: 7%;
+  width: 100%;
+  padding-left: 50px;
+}
+
+.layer-1 .hd-text .hd-text-d {
+  width: 210px;
+}
+
+.layer-1 .hd-text .hd-text-d span {
+  font-size: .9em;
+  letter-spacing: 1px;
+}
+
+.layer-1 .hd-text .hd-text-d h2 {
+  font-size: 2.5em;
+  font-weight: bold;
+  line-height: 1.3em;
+  letter-spacing: 1.2px;
+  margin: 10px 0;
+  color: #19456B;
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+.layer-1 .hd-text .hd-text-d p {
+  font-size: .9em;
+  line-height: 1.7em;
+}
+
+.layer-1 .hd-text .hd-text-d button {
+  background-color: #16C79A;
+  border: none;
+  margin-top: 15px;
+  font-size: .9em;
+  width: 100%;
+  padding: 1em;
+  -webkit-box-shadow: 0px 3px 7px gray;
+          box-shadow: 0px 3px 7px gray;
+}
+
+.layer-1 .hd-text .hd-icon-d {
+  padding: 30px;
+}
+
+.layer-1 .hd-text .hd-icon-d svg {
+  float: right;
+  color: #16C79A;
+}
+
+.layer-2 {
+  padding: 5px 5%;
+}
+
+.layer-2 .col-d {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 50px;
+}
+
+.layer-2 .text-d {
+  padding-left: 10%;
+}
+
+.layer-2 .text-d h2 {
+  font-size: 2em;
+  font-weight: bold;
+  line-height: 1.3em;
+  letter-spacing: 1.2px;
+  margin: 10px 0;
+  color: #19456B;
+  font-family: 'Balsamiq Sans', cursive;
+}
+
+.layer-2 .text-d p {
+  font-size: .9em;
+  line-height: 1.7em;
+  max-width: 360px;
+}
+
+.layer-2 .text-d button {
+  background-color: #16C79A;
+  color: #ffffff;
+  border: none;
+  margin: 15px 0 5px;
+  font-size: .9em;
+  padding: .5em 2em;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 3px 7px #808080;
+          box-shadow: 0px 3px 7px #808080;
+}
+
+.layer-2 .p-img-d {
+  width: 400px;
+}
+
+.layer-2 .p-img-d .p-slip {
+  height: 75vh;
+  margin: auto;
+  border-radius: 10px;
+  -webkit-box-shadow: 3px 3px 15px #808080;
+          box-shadow: 3px 3px 15px #808080;
+}
+
+.layer-2 .card-d {
+  margin: auto;
+  text-align: center;
+}
+
+.layer-2 .card-d .carousel {
+  margin-top: 200px;
+}
+
+.layer-2 .card-d .card {
+  padding: 0 40px;
+  padding: auto;
+  -webkit-box-shadow: 2px 3px 15px #808080;
+          box-shadow: 2px 3px 15px #808080;
+}
+
+.layer-2 .card-d .card span {
+  font-size: 3em;
+  color: gray;
+}
+
+.layer-2 .card-d .card .card-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.layer-2 .carousel-d {
+  border-left: 1px solid #cccaca;
+}
+
+.layer-2 form {
+  height: 400px;
+  padding: 20px;
+  background-color: white;
+}
+
+.layer-2 form input {
+  border: none;
+  margin-top: 25px;
+}
+
+.layer-2 form .btn-d {
+  margin-left: 40%;
+}
+
+.layer-2 form button {
+  background-color: #16C79A;
+  border: none;
+}
+
+.layer-2 .f-card-d {
+  height: 400px;
+}
+
+.layer-7 {
+  padding: 50px 100px;
+}
+
+.layer-7 .img-fluid {
+  width: 300px;
+  height: auto;
+  padding: 0 50px;
+}
+
+.layer-7 .e-input {
+  height: 100%;
+  width: 500px;
+}
+
+.layer-7 .input-group {
+  height: 30px;
+  width: 350px;
+  -webkit-box-shadow: 0px 5px 10px #808080;
+          box-shadow: 0px 5px 10px #808080;
+}
+
+.layer-7 .input-group input {
+  border: none;
+}
+
+.layer-7 .btn {
+  background-color: #16C79A;
+  border-radius: 0;
+  height: 100%;
+  width: 100px;
+}
+
+.footer .nav-footer h4 {
+  color: #19456B;
+}
+
+.footer .navbar-logo {
+  width: 130px;
+  height: auto;
+  margin: 10px;
+}
+
+.footer .social-i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.footer .social-i .social {
+  margin-left: 20px;
+  height: auto;
+  padding: 5px 10px;
+  border-radius: 5px;
+  -webkit-box-shadow: 2px 3px 15px #808080;
+          box-shadow: 2px 3px 15px #808080;
+}
+
+@media (min-width: 480px) {
+  .layer-1 .h-img {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .layer-1 .h-img {
+    display: block;
+  }
+}
+
+@media (min-width: 992px) {
+  .layer-1 .h-img {
+    display: block;
+  }
+}
+
+@media (min-width: 1200px) {
+  .layer-1 .h-img {
+    display: block;
+  }
+}
+/*# sourceMappingURL=main.css.map */
